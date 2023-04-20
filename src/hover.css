@@ -1,0 +1,33 @@
+.wrap {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: skyblue;
+  overflow: hidden;
+}
+/* 우..움직여..! */
+.thumb {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  transition: top 5s;
+}
+
+.thumb span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2000px;
+  background: url("https://png.pngtree.com/background/20210716/original/pngtree-sakura-vertical-version-of-cherry-blossom-photography-romantic-pink-phone-wallpaper-picture-image_1342949.jpg") no-repeat center;
+}
