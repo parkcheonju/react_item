@@ -1,11 +1,12 @@
 import React from "react";
-import Lottiet from "./lottie";
+import Pj from "./projects/ProjectPage";
+
 
 
 const App = () => {
   return (
     <div>
-      <Lottiet />
+      <Pj />
     </div>
   );
 };
